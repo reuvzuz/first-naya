@@ -17,10 +17,10 @@ def calk(key)
      calc_entry.insert(END,"טעות")
      messagebox.showerror("טעות הזנה")
 #reset
-  elive key == "C":
+  elif key == "C":
   calc_entry.delete(0,END)
 #החלפת +ל- 
-   elive key == "+/-"
+   elif key == "+/-"
       if "=" in calc_entry.get():
          calc_entry.delete(0,END)
       try:
